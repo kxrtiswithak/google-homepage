@@ -23,33 +23,39 @@ footer ul {
     bottom: 0;
     background-color: #f2f2f2;
 }
-header {
-    background: black;
-}
-h1 { 
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
-    font-size: 72px; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
-    line-height: 26.4px;
+#body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    height: 600px;
 }
-.two {
-    float: right;
+#body > * {
+    margin: 10px;
 }
+#logo {
+    width: 280px;
+}
+#searchbar {
+    width: 430px;
+    border: 1.5px solid #dfe1e5;
+    padding: 12px;
+    border-radius: 25px;
+    background: url(mic-icon.png) no-repeat scroll 7px 7px;
+    padding-left: 60px;
 
-.blue {
-    color:#4285f4;
 }
-.red {
-    color:#eb4335;
+#buttons > * {
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 10px 4px;
+    background-color: #f4f4f4;
+    color: #65696e;
+    font-size: 14px;
 }
-.yellow {
-    color:#fcbc05;
-}
-.green {
-    color:#34a853;
+#buttons > *:hover {
+    color:black;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #e7e7e7;
 }
