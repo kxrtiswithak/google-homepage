@@ -41,9 +41,10 @@ footer ul {
     border: 1.5px solid #dfe1e5;
     padding: 12px;
     border-radius: 25px;
-    background: url(mic-icon.png) no-repeat scroll 7px 7px;
-    padding-left: 60px;
-
+    padding-left: 30px;
+}
+#searchbar:hover {
+    box-shadow: 0 0 3px 1px #e7e7e7;
 }
 #buttons > * {
     border: 1px solid #f4f4f4;
